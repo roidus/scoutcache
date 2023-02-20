@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Question Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+  </head>
+  <body>
+    <h1>What is the capital of France?</h1>
+    <input type="text" id="answer" placeholder="Enter your answer">
+    <button onclick="checkAnswer()">Submit</button>
+    <script>
+      function checkAnswer() {
+        var answer = document.getElementById("answer").value;
+        if (answer.toLowerCase() === "paris") {
+          window.location.href = "https://www.france.fr/en/paris";
+        } else {
+          alert("Sorry, that's incorrect. Please try again.");
+        }
+      }
+    </script>
+  </body>
+</html>
