@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Question 1</title>
+    <title>Question 2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style2.css"> 
   </head>
   <body>
-     <h1>What is the capital of Italy?</h1>
+     <h1>What fruit is this?</h1>
+     <center><img src="fruit1.jpg"></center>
     <input type="text" id="answer" placeholder="Enter your answer">
     <button onclick="checkAnswer()">Submit</button>
     <script>
       function checkAnswer() {
         var answer = document.getElementById("answer").value;
-        if (answer.toLowerCase() === "rome") {
-          window.location.href = "lbrazil.html";
+        if (answer.toLowerCase() === "kiwi") {
+          window.location.href = "lchina.html";
         } else {
           alert("Sorry, that's incorrect. Please try again.");
         }
