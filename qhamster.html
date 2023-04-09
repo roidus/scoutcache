@@ -6,15 +6,15 @@
     <link rel="stylesheet" type="text/css" href="style2.css"> 
   </head>
   <body>
-     <h1>What fruit is this?</h1>
-     <center><img src="fruit1.jpg"></center>
+     <h1>How old is this man (years only)?</h1>
+     <center><img src="king.jpg"></center>
     <input type="text" id="answer" placeholder="Enter your answer">
     <button onclick="checkAnswer()">Submit</button>
     <script>
       function checkAnswer() {
         var answer = document.getElementById("answer").value;
-        if (answer.toLowerCase() === "kiwi") {
-          window.location.href = "lchina.html";
+        if (answer.toLowerCase() === "74") {
+          window.location.href = "lindia.html";
         } else {
           alert("Sorry, that's incorrect. Please try again.");
         }
