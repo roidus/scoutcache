@@ -41,12 +41,6 @@
         margin-right: auto;
         width: 50%;
       }
-      .footer {
-  background-image: url('path/to/your/image.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
       @media screen and (min-width: 768px) {
         /* styles for larger screens */
         body {
