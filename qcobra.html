@@ -6,13 +6,13 @@
     <link rel="stylesheet" type="text/css" href="style2.css"> 
   </head>
   <body>
-     <h1>What is the 12 x 12 ?</h1>
+     <h1>What colour are emeralds?</h1>
     <input type="text" id="answer" placeholder="Enter your answer">
     <button onclick="checkAnswer()">Submit</button>
     <script>
       function checkAnswer() {
         var answer = document.getElementById("answer").value;
-        if (answer.toLowerCase() === "144") {
+        if (answer.toLowerCase() === "green") {
           window.location.href = "ldenmark.html";
         } else {
           alert("Sorry, that's incorrect. Please try again.");
