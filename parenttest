@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Location 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css"> 
+  </head>
+  <body>
+    <h1>Well done!</h1>
+    <p>Keep going...</p>
+    <p><a href="w3w://show?threewords=alley.courtyard.register">alley.courtyard.register</a></p>
+    <center><img src="fleur-de-lis-marque-purple-jpg-300x273.jpg"></center>
+    </body>
+</html>
